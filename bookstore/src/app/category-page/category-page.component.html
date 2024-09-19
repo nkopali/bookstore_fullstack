@@ -1,0 +1,11 @@
+<h1>{{ main_category }} Books</h1>
+<ul class="book-list">
+  <li *ngFor="let book of books; let i = index" class="book-item" >
+    <!-- <img [src]="book.photo" alt="{{ book.title }}" /> -->
+     <div (click)="onBookClick(book)">
+      <h3>{{ book.title }}</h3>
+      <p>{{ book.description }}</p>
+      <p class="price">{{ book.price}} € </p>
+     </div>
+  </li>
+</ul>

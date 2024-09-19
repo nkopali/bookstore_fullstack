@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "title": "Children of the Moon",
+        "author": "Benjamin Frost",
+        "description": "A supernatural adventure with a surprising twist.",
+        "price": 25.48,
+        "category": "Mystery"
+    },
+    {
+        "id": 2,
+        "title": "The Phantom's Curse",
+        "author": "Yasmin Doyle",
+        "description": "A romantic saga that spans across generations.",
+        "price": 26.33,
+        "category": "Drama"
+    },
+    {
+        "id": 3,
+        "title": "The Celestial Chronicles",
+        "author": "Rachel Carter",
+        "description": "A spine-chilling mystery that delves into the unknown.",
+        "price": 30.07,
+        "category": "Historical Fiction"
+    },
+    {
+        "id": 4,
+        "title": "The Enigma Code",
+        "author": "Penelope White",
+        "description": "A dark and thrilling narrative of secrets and lies.",
+        "price": 18.17,
+        "category": "Psychology"
+    },
+    {
+        "id": 5,
+        "title": "The Mystic Key",
+        "author": "Yasmin Doyle",
+        "description": "An epic saga of love and betrayal set in a mystical land.",
+        "price": 6.06,
+        "category": "Romance"
+    },
+    {
+        "id": 6,
+        "title": "The Last Crusade",
+        "author": "Diana Mendez",
+        "description": "A humorous take on life, love, and everything in between.",
+        "price": 22.24,
+        "category": "Horror"
+    },
+    {
+        "id": 7,
+        "title": "Winds of Destiny",
+        "author": "Yasmin Doyle",
+        "description": "A timeless tale of courage and sacrifice.",
+        "price": 42.08,
+        "category": "Historical Fiction"
+    },
+    {
+        "id": 8,
+        "title": "The Celestial Prophecy",
+        "author": "Wendy Porter",
+        "description": "A magical journey filled with enchantment and wonder.",
+        "price": 43.66,
+        "category": "Adventure"
+    },
+    {
+        "id": 9,
+        "title": "Beyond the Horizon",
+        "author": "Liam O'Reilly",
+        "description": "An epic saga of love and betrayal set in a mystical land.",
+        "price": 28.31,
+        "category": "Humor"
+    },
+    {
+        "id": 10,
+        "title": "The Cosmic Voyage",
+        "author": "Ethan Stone",
+        "description": "A gripping tale of war and survival in a dystopian world.",
+        "price": 46.42,
+        "category": "Romance"
+    },
+    {
+        "id": 11,
+        "title": "Echoes of Eternity",
+        "author": "Bella Swanson",
+        "description": "A gripping tale of war and survival in a dystopian world.",
+        "price": 41.9,
+        "category": "Health & Wellness"
+    },
+    {
+        "id": 12,
+        "title": "The Lost Heir",
+        "author": "Bella Swanson",
+        "description": "A heartwarming story of friendship and family.",
+        "price": 41.13,
+        "category": "Adventure"
+    },
+    {
+        "id": 13,
+        "title": "The Last Crusade",
+        "author": "David Hunt",
+        "description": "A gripping tale of war and survival in a dystopian world.",
+        "price": 11.62,
+        "category": "Self-Help"
+    },
+    {
+        "id": 14,
+        "title": "The Shadow Chronicles",
+        "author": "Rachel Carter",
+        "description": "A heart-pounding adventure that transcends time and space.",
+        "price": 21.17,
+        "category": "Romance"
+    },
+    {
+        "id": 15,
+        "title": "Winds of Destiny",
+        "author": "Julia Benson",
+        "description": "A spine-chilling mystery that delves into the unknown.",
+        "price": 37.7,
+        "category": "Poetry"
+    },
+    {
+        "id": 16,
+        "title": "The Fire Within",
+        "author": "Gideon Harper",
+        "description": "A captivating journey through alternate realities.",
+        "price": 8.0,
+        "category": "Psychology"
+    },
+    {
+        "id": 17,
+        "title": "The Elemental War",
+        "author": "Natalie Cortez",
+        "description": "A fascinating look into the future of humanity.",
+        "price": 26.69,
+        "category": "Crime"
+    },
+    {
+        "id": 18,
+        "title": "The Crimson Reign",
+        "author": "Victor Hale",
+        "description": "An exploration of the cosmos and the mysteries it holds.",
+        "price": 48.14,
+        "category": "Mystery"
+    },
+    {
+        "id": 19,
+        "title": "The Forgotten Empire",
+        "author": "Gideon Harper",
+        "description": "A fascinating look into the future of humanity.",
+        "price": 14.14,
+        "category": "Historical Fiction"
+    },
+    {
+        "id": 20,
+        "title": "The Time Weaver",
+        "author": "Oliver Blackwood",
+        "description": "A gripping tale of war and survival in a dystopian world.",
+        "price": 5.24,
+        "category": "Romance"
+    },
+    {
+        "id": 21,
+        "title": "The Dragon's Lair",
+        "author": "Wendy Porter",
+        "description": "A captivating journey through alternate realities.",
+        "price": 18.88,
+        "category": "Fantasy"
+    },
+    {
+        "id": 22,
+        "title": "Realm of Dreams",
+        "author": "Bella Swanson",
+        "description": "A heart-pounding adventure that transcends time and space.",
+        "price": 36.1,
+        "category": "Fiction"
+    },
+    {
+        "id": 23,
+        "title": "The Illusionist's Apprentice",
+        "author": "Ethan Stone",
+        "description": "A heart-pounding adventure that transcends time and space.",
+        "price": 15.89,
+        "category": "Fiction"
+    },
+    {
+        "id": 24,
+        "title": "Winds of Destiny",
+        "author": "Xander Ford",
+        "description": "A romantic saga that spans across generations.",
+        "price": 39.46,
+        "category": "Adventure"
+    },
+    {
+        "id": 25,
+        "title": "The Shadow Chronicles",
+        "author": "Benjamin Frost",
+        "description": "A fascinating look into the future of humanity.",
+        "price": 22.89,
+        "category": "Philosophy"
+    },
+    {
+        "id": 26,
+        "title": "Children of the Moon",
+        "author": "Ethan Stone",
+        "description": "An inspirational story of hope against all odds.",
+        "price": 28.13,
+        "category": "Biography"
+    },
+    {
+        "id": 27,
+        "title": "Guardians of the Galaxy",
+        "author": "Isaac Newton",
+        "description": "A dark and thrilling narrative of secrets and lies.",
+        "price": 24.14,
+        "category": "Self-Help"
+    },
+    {
+        "id": 28,
+        "title": "Voices from Beyond",
+        "author": "Benjamin Frost",
+        "description": "A spine-chilling mystery that delves into the unknown.",
+        "price": 20.7,
+        "category": "Health & Wellness"
+    },
+    {
+        "id": 29,
+        "title": "The Mystic Key",
+        "author": "Christopher Reed",
+        "description": "A humorous take on life, love, and everything in between.",
+        "price": 5.69,
+        "category": "Science Fiction"
+    },
+    {
+        "id": 30,
+        "title": "The Elemental War",
+        "author": "Rachel Carter",
+        "description": "A supernatural adventure with a surprising twist.",
+        "price": 22.5,
+        "category": "Fantasy"
+    },
+    {
+        "id": 31,
+        "title": "The Enigma Code",
+        "author": "Wendy Porter",
+        "description": "A romantic saga that spans across generations.",
+        "price": 20.62,
+        "category": "Thriller"
+    },
+    {
+        "id": 32,
+        "title": "Wanderers of the Void",
+        "author": "Liam O'Reilly",
+        "description": "An exploration of the cosmos and the mysteries it holds.",
+        "price": 27.29,
+        "category": "Travel"
+    },
+    {
+        "id": 33,
+        "title": "Winds of Destiny",
+        "author": "Victor Hale",
+        "description": "A magical journey filled with enchantment and wonder.",
+        "price": 31.75,
+        "category": "Self-Help"
+    },
+    {
+        "id": 34,
+        "title": "The Iron Fortress",
+        "author": "Quentin Fisher",
+        "description": "A timeless tale of courage and sacrifice.",
+        "price": 49.67,
+        "category": "Philosophy"
+    },
+    {
+        "id": 35,
+        "title": "The Silent Echo",
+        "author": "Gideon Harper",
+        "description": "A fascinating look into the future of humanity.",
+        "price": 47.38,
+        "category": "Historical Fiction"
+    },
+    {
+        "id": 36,
+        "title": "The Mystic Key",
+        "author": "Christopher Reed",
+        "description": "A magical journey filled with enchantment and wonder.",
+        "price": 24.56,
+        "category": "Self-Help"
+    },
+    {
+        "id": 37,
+        "title": "The Quantum Enigma",
+        "author": "Samuel Emerson",
+        "description": "A heart-pounding adventure that transcends time and space.",
+        "price": 15.54,
+        "category": "Self-Help"
+    },
+    {
+        "id": 38,
+        "title": "Winds of Change",
+        "author": "Wendy Porter",
+        "description": "A profound exploration of the human spirit.",
+        "price": 34.33,
+        "category": "Psychology"
+    },
+    {
+        "id": 39,
+        "title": "The Forgotten Empire",
+        "author": "Christopher Reed",
+        "description": "An emotional rollercoaster that will leave you breathless.",
+        "price": 30.41,
+        "category": "Travel"
+    },
+    {
+        "id": 40,
+        "title": "The Eternal Flame",
+        "author": "Isaac Newton",
+        "description": "A heartwarming story of friendship and family.",
+        "price": 44.01,
+        "category": "Biography"
+    },
+    {
+        "id": 41,
+        "title": "The Iron Fortress",
+        "author": "Xander Ford",
+        "description": "A dark and thrilling narrative of secrets and lies.",
+        "price": 14.02,
+        "category": "Drama"
+    },
+    {
+        "id": 42,
+        "title": "The Eternal Flame",
+        "author": "Penelope White",
+        "description": "A heartwarming story of friendship and family.",
+        "price": 25.6,
+        "category": "Humor"
+    },
+    {
+        "id": 43,
+        "title": "Voices from Beyond",
+        "author": "Natalie Cortez",
+        "description": "A timeless tale of courage and sacrifice.",
+        "price": 8.01,
+        "category": "Fiction"
+    },
+    {
+        "id": 44,
+        "title": "The Mystic Key",
+        "author": "David Hunt",
+        "description": "A spine-chilling mystery that delves into the unknown.",
+        "price": 13.28,
+        "category": "Poetry"
+    },
+    {
+        "id": 45,
+        "title": "The Astral Gate",
+        "author": "Julia Benson",
+        "description": "An epic saga of love and betrayal set in a mystical land.",
+        "price": 44.41,
+        "category": "Travel"
+    },
+    {
+        "id": 46,
+        "title": "The Celestial Chronicles",
+        "author": "Natalie Cortez",
+        "description": "A spine-chilling mystery that delves into the unknown.",
+        "price": 17.69,
+        "category": "Mystery"
+    },
+    {
+        "id": 47,
+        "title": "The Mystic Key",
+        "author": "Zachary Knight",
+        "description": "A captivating mystery that will keep you guessing.",
+        "price": 49.35,
+        "category": "Philosophy"
+    },
+    {
+        "id": 48,
+        "title": "The Astral Gate",
+        "author": "Fiona Gallagher",
+        "description": "An exploration of the cosmos and the mysteries it holds.",
+        "price": 46.6,
+        "category": "Humor"
+    },
+    {
+        "id": 49,
+        "title": "The Shadow Chronicles",
+        "author": "Samuel Emerson",
+        "description": "A thought-provoking tale of identity and purpose.",
+        "price": 22.39,
+        "category": "Self-Help"
+    },
+    {
+        "id": 50,
+        "title": "The Dark Tide",
+        "author": "Ethan Stone",
+        "description": "A thought-provoking tale of identity and purpose.",
+        "price": 25.92,
+        "category": "Spirituality"
+    },
+    {
+        "id": 51,
+        "title": "The Time Weaver",
+        "author": "Tessa Monroe",
+        "description": "A heart-pounding adventure that transcends time and space.",
+        "price": 7.26,
+        "category": "Poetry"
+    },
+    {
+        "id": 52,
+        "title": "Realm of Dreams",
+        "author": "Mason Keller",
+        "description": "An electrifying thriller with twists and turns.",
+        "price": 27.73,
+        "category": "Spirituality"
+    },
+    {
+        "id": 53,
+        "title": "Legacy of the Stars",
+        "author": "Zachary Knight",
+        "description": "A captivating journey through alternate realities.",
+        "price": 40.17,
+        "category": "Biography"
+    },
+    {
+        "id": 54,
+        "title": "The Eternal Flame",
+        "author": "Diana Mendez",
+        "description": "A timeless tale of courage and sacrifice.",
+        "price": 21.68,
+        "category": "Romance"
+    },
+    {
+        "id": 55,
+        "title": "Guardians of the Galaxy",
+        "author": "Xander Ford",
+        "description": "An epic saga of love and betrayal set in a mystical land.",
+        "price": 43.59,
+        "category": "Self-Help"
+    },
+    {
+        "id": 56,
+        "title": "The Forgotten Empire",
+        "author": "Oliver Blackwood",
+        "description": "An exploration of the cosmos and the mysteries it holds.",
+        "price": 8.65,
+        "category": "Crime"
+    },
+    {
+        "id": 57,
+        "title": "The Lost Prophecy",
+        "author": "Xander Ford",
+        "description": "A heart-pounding adventure that transcends time and space.",
+        "price": 16.52,
+        "category": "Health & Wellness"
+    },
+    {
+        "id": 58,
+        "title": "The Cosmic Voyage",
+        "author": "Ursula Green",
+        "description": "A romantic saga that spans across generations.",
+        "price": 9.14,
+        "category": "Romance"
+    },
+    {
+        "id": 59,
+        "title": "Winds of Destiny",
+        "author": "Wendy Porter",
+        "description": "A captivating journey through alternate realities.",
+        "price": 18.36,
+        "category": "Spirituality"
+    },
+    {
+        "id": 60,
+        "title": "The Crystal Labyrinth",
+        "author": "Penelope White",
+        "description": "A profound exploration of the human spirit.",
+        "price": 23.7,
+        "category": "Mystery"
+    },
+    {
+        "id": 61,
+        "title": "The Dark Tide",
+        "author": "Yasmin Doyle",
+        "description": "A romantic saga that spans across generations.",
+        "price": 24.45,
+        "category": "Self-Help"
+    },
+    {
+        "id": 62,
+        "title": "Heirs of the Phoenix",
+        "author": "Katherine Blake",
+        "description": "A heart-pounding adventure that transcends time and space.",
+        "price": 24.21,
+        "category": "Self-Help"
+    },
+    {
+        "id": 63,
+        "title": "Voices from Beyond",
+        "author": "Amelia Clark",
+        "description": "An exploration of the cosmos and the mysteries it holds.",
+        "price": 21.7,
+        "category": "Horror"
+    },
+    {
+        "id": 64,
+        "title": "The Lost Prophecy",
+        "author": "Mason Keller",
+        "description": "A magical journey filled with enchantment and wonder.",
+        "price": 39.44,
+        "category": "Science Fiction"
+    },
+    {
+        "id": 65,
+        "title": "Whispers of the Heart",
+        "author": "Isaac Newton",
+        "description": "A timeless tale of courage and sacrifice.",
+        "price": 15.26,
+        "category": "Adventure"
+    },
+    {
+        "id": 66,
+        "title": "The Dark Tide",
+        "author": "Catherine Moore",
+        "description": "A magical journey filled with enchantment and wonder.",
+        "price": 16.51,
+        "category": "Biography"
+    },
+    {
+        "id": 67,
+        "title": "Beneath the Waves",
+        "author": "Zachary Knight",
+        "description": "A dark and thrilling narrative of secrets and lies.",
+        "price": 27.97,
+        "category": "Horror"
+    },
+    {
+        "id": 68,
+        "title": "The Dragon's Lair",
+        "author": "Christopher Reed",
+        "description": "A supernatural adventure with a surprising twist.",
+        "price": 40.15,
+        "category": "Adventure"
+    },
+    {
+        "id": 69,
+        "title": "Winds of Change",
+        "author": "Tessa Monroe",
+        "description": "A timeless tale of courage and sacrifice.",
+        "price": 44.78,
+        "category": "Poetry"
+    },
+    {
+        "id": 70,
+        "title": "The Celestial Prophecy",
+        "author": "Alexander Hamilton",
+        "description": "A captivating mystery that will keep you guessing.",
+        "price": 17.05,
+        "category": "Drama"
+    },
+    {
+        "id": 71,
+        "title": "Realm of Dreams",
+        "author": "Hannah Thompson",
+        "description": "An inspirational story of hope against all odds.",
+        "price": 40.94,
+        "category": "Philosophy"
+    },
+    {
+        "id": 72,
+        "title": "Dawn of Legends",
+        "author": "Mason Keller",
+        "description": "A profound exploration of the human spirit.",
+        "price": 18.0,
+        "category": "Humor"
+    },
+    {
+        "id": 73,
+        "title": "The Phantom's Curse",
+        "author": "Fiona Gallagher",
+        "description": "A fascinating look into the future of humanity.",
+        "price": 40.42,
+        "category": "Mystery"
+    },
+    {
+        "id": 74,
+        "title": "The Quantum Enigma",
+        "author": "Penelope White",
+        "description": "A dark and thrilling narrative of secrets and lies.",
+        "price": 25.52,
+        "category": "Drama"
+    },
+    {
+        "id": 75,
+        "title": "The Last Crusade",
+        "author": "Isaac Newton",
+        "description": "A captivating mystery that will keep you guessing.",
+        "price": 24.98,
+        "category": "Spirituality"
+    },
+    {
+        "id": 76,
+        "title": "The Enigma Code",
+        "author": "Catherine Moore",
+        "description": "A captivating mystery that will keep you guessing.",
+        "price": 29.49,
+        "category": "Drama"
+    },
+    {
+        "id": 77,
+        "title": "The Sorcerer's Secret",
+        "author": "Hannah Thompson",
+        "description": "An emotional rollercoaster that will leave you breathless.",
+        "price": 45.22,
+        "category": "Health & Wellness"
+    },
+    {
+        "id": 78,
+        "title": "The Time Weaver",
+        "author": "Penelope White",
+        "description": "An electrifying thriller with twists and turns.",
+        "price": 42.78,
+        "category": "Thriller"
+    },
+    {
+        "id": 79,
+        "title": "The Phantom's Curse",
+        "author": "Tessa Monroe",
+        "description": "A heartwarming story of friendship and family.",
+        "price": 46.41,
+        "category": "Health & Wellness"
+    },
+    {
+        "id": 80,
+        "title": "Whispers of the Heart",
+        "author": "David Hunt",
+        "description": "An electrifying thriller with twists and turns.",
+        "price": 23.94,
+        "category": "Travel"
+    },
+    {
+        "id": 81,
+        "title": "Echoes of Eternity",
+        "author": "Alexander Hamilton",
+        "description": "A captivating mystery that will keep you guessing.",
+        "price": 23.55,
+        "category": "Poetry"
+    },
+    {
+        "id": 82,
+        "title": "Realm of Dreams",
+        "author": "Christopher Reed",
+        "description": "A spine-chilling mystery that delves into the unknown.",
+        "price": 16.61,
+        "category": "Horror"
+    },
+    {
+        "id": 83,
+        "title": "Beyond the Horizon",
+        "author": "Wendy Porter",
+        "description": "A captivating journey through alternate realities.",
+        "price": 11.38,
+        "category": "Fantasy"
+    },
+    {
+        "id": 84,
+        "title": "The Celestial Chronicles",
+        "author": "Victor Hale",
+        "description": "A gripping tale of war and survival in a dystopian world.",
+        "price": 29.0,
+        "category": "Horror"
+    },
+    {
+        "id": 85,
+        "title": "The Phantom's Curse",
+        "author": "Christopher Reed",
+        "description": "A dark and thrilling narrative of secrets and lies.",
+        "price": 9.63,
+        "category": "Adventure"
+    },
+    {
+        "id": 86,
+        "title": "The Crystal Labyrinth",
+        "author": "Christopher Reed",
+        "description": "An inspirational story of hope against all odds.",
+        "price": 47.25,
+        "category": "Fiction"
+    },
+    {
+        "id": 87,
+        "title": "The Sorcerer's Secret",
+        "author": "Tessa Monroe",
+        "description": "An epic saga of love and betrayal set in a mystical land.",
+        "price": 48.53,
+        "category": "Humor"
+    },
+    {
+        "id": 88,
+        "title": "Echoes of Eternity",
+        "author": "Penelope White",
+        "description": "A captivating mystery that will keep you guessing.",
+        "price": 38.8,
+        "category": "Horror"
+    },
+    {
+        "id": 89,
+        "title": "The Lost Heir",
+        "author": "Ursula Green",
+        "description": "A fascinating look into the future of humanity.",
+        "price": 16.04,
+        "category": "Poetry"
+    },
+    {
+        "id": 90,
+        "title": "The Fire Within",
+        "author": "Bella Swanson",
+        "description": "A timeless tale of courage and sacrifice.",
+        "price": 46.32,
+        "category": "Horror"
+    },
+    {
+        "id": 91,
+        "title": "The Illusionist's Apprentice",
+        "author": "Rachel Carter",
+        "description": "A spine-chilling mystery that delves into the unknown.",
+        "price": 25.17,
+        "category": "Spirituality"
+    },
+    {
+        "id": 92,
+        "title": "Beneath the Waves",
+        "author": "Hannah Thompson",
+        "description": "A dark and thrilling narrative of secrets and lies.",
+        "price": 32.42,
+        "category": "Spirituality"
+    },
+    {
+        "id": 93,
+        "title": "Realm of Dreams",
+        "author": "Diana Mendez",
+        "description": "A profound exploration of the human spirit.",
+        "price": 27.85,
+        "category": "Psychology"
+    },
+    {
+        "id": 94,
+        "title": "Wanderers of the Void",
+        "author": "Alexander Hamilton",
+        "description": "A romantic saga that spans across generations.",
+        "price": 23.11,
+        "category": "Adventure"
+    },
+    {
+        "id": 95,
+        "title": "The Dark Tide",
+        "author": "Zachary Knight",
+        "description": "A timeless tale of courage and sacrifice.",
+        "price": 22.87,
+        "category": "Historical Fiction"
+    },
+    {
+        "id": 96,
+        "title": "Winds of Change",
+        "author": "Victor Hale",
+        "description": "An epic saga of love and betrayal set in a mystical land.",
+        "price": 21.65,
+        "category": "Travel"
+    },
+    {
+        "id": 97,
+        "title": "Echoes of Eternity",
+        "author": "Ursula Green",
+        "description": "A captivating mystery that will keep you guessing.",
+        "price": 37.83,
+        "category": "Mystery"
+    },
+    {
+        "id": 98,
+        "title": "The Astral Gate",
+        "author": "Julia Benson",
+        "description": "A captivating journey through alternate realities.",
+        "price": 30.7,
+        "category": "Adventure"
+    },
+    {
+        "id": 99,
+        "title": "The Iron Fortress",
+        "author": "Ursula Green",
+        "description": "A romantic saga that spans across generations.",
+        "price": 25.8,
+        "category": "Travel"
+    },
+    {
+        "id": 100,
+        "title": "Beyond the Horizon",
+        "author": "Yasmin Doyle",
+        "description": "A gripping tale of war and survival in a dystopian world.",
+        "price": 24.57,
+        "category": "Travel"
+    }
+]

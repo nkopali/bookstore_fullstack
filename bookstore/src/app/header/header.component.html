@@ -1,0 +1,62 @@
+<header class="top-bar">
+  <div class="logo">
+    <a href="#">
+      <img src="logo2.jpg" alt="Logo" />
+    </a>
+  </div>
+
+  <div class="categories">
+    <button (click)="toggleDropdown()" class="dropdown-btn">
+      Categories <span>&#9662;</span>
+    </button>
+    <ul *ngIf="dropdownOpen" class="dropdown-list">
+      <li *ngFor="let category of categories" (click)="selectCategory(category)">
+        {{ category }}
+      </li>
+    </ul>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" [(ngModel)]="searchTerm" (keydown.enter)="onEnter()" placeholder="Search books by title" />
+  </div>
+
+    <p-button (onClick)="showDialog(false)" class="text-xs" label="Login" />
+    <div class="card flex justify-center">
+      <p-dialog header="{{ isSignUp ? 'Sign Up' : 'Login' }}" [modal]="true" [(visible)]="visible" [style]="{ width: '35rem' }">
+          <div class="grid grid-cols-1 gap-4">
+              <div class="flex flex-col">
+                  <label for="email" class="font-semibold">Email</label>
+                  <input pInputText [(ngModel)]="email" id="email" class="w-full" autocomplete="off" />
+              </div>
+
+              <div *ngIf="isSignUp" class="flex flex-col">
+                <label for="name" class="font-semibold">Name</label>
+                <input pInputText [(ngModel)]="name" id="name" class="w-full" autocomplete="off" />
+            </div>
+
+              <div class="flex flex-col">
+                  <label for="password" class="font-semibold">Password</label>
+                  <input pInputText [(ngModel)]="password" (keydown.enter)="handleSubmit()" id="password" type="password" class="w-full" autocomplete="off" />
+              </div>
+
+              <div *ngIf="isSignUp" class="flex flex-col">
+                  <label for="confirm-password" class="font-semibold">Confirm Password</label>
+                  <input pInputText [(ngModel)]="confPassword" id="confirm-password" type="password" class="w-full" autocomplete="off" />
+              </div>
+          </div>
+
+          <div class="flex text-xs px-2 gap-2 mt-4">
+            <p-button label="Cancel" severity="secondary" (onClick)="visible = false"></p-button>
+            <p-button label="{{ isSignUp ? 'Sign Up' : 'Login' }}" (onClick)="visible = false; handleSubmit()"></p-button>
+          </div>
+
+          <div class="flex justify-content-center mt-2">
+              <a (click)="toggleSignUp()">
+                  {{ isSignUp ? 'Already have an account? Login' : 'Don\'t have an account? Sign Up' }}
+              </a>
+          </div>
+      </p-dialog>
+  </div>
+
+</header>
+<p-toast />

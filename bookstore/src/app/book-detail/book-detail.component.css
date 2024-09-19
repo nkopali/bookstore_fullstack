@@ -1,0 +1,20 @@
+.book-detail {
+  display: flex; /* Set as flex to align internal content */
+  flex-direction: column; /* Stack internal content vertically */
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+  text-align: center; /* Center text horizontally */
+  color: #333; /* Adjust text color if needed */
+}
+
+h1 {
+  font-size: 24px; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+  text-align: center; /* Center text horizontally */
+  margin: 20px auto; /* Center the h1 element and add vertical spacing */
+  color: #333; /* Adjust text color if needed */
+}

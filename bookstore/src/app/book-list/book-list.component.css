@@ -1,0 +1,74 @@
+.book-list {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  scrollbar-width: thin;
+  align-items: flex-start;
+  margin-top: 25px;
+  scroll-behavior: smooth; /* Smooth horizontal scrolling */
+
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  justify-content: space-between;  /* Distribute items with space between them */
+  flex: 0 0 auto;
+  margin-right: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out; /* Smooth scaling effect */
+}
+
+.book-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.book-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.book-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.book-item p {
+  font-size: 14px;
+  color: #555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box; /* Required for -webkit-line-clamp */
+  -webkit-line-clamp: 2; /* Limits to 2 lines */
+  -webkit-box-orient: vertical; /* Required for -webkit-line-clamp */
+  line-height: 1.5em; /* Adjust line height as needed */
+  max-height: 3em; /* Limit height to two lines (2 * line-height) */
+}
+
+.price {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  margin-top: auto;
+}
+
+/* Optional: Custom scrollbar styles */
+.book-list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.book-list::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.book-list::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

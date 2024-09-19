@@ -1,0 +1,18 @@
+<ul class="book-list" (wheel)="onScroll($event)">
+  <li *ngFor="let book of books; let i = index" class="book-item" >
+    <!-- <img [src]="book.photo" alt="{{ book.title }}" /> -->
+     <div (click)="onBookClick(book)">
+      <h3>{{ book.title }}</h3>
+      <p>{{ book.description }}</p>
+      <p class="price">{{ book.price}} € </p>
+     </div>
+    <p-button
+      label="Add to Cart"
+      icon="pi pi-cart-plus"
+      class="text-xs"
+      [loading]="loadingStates[i]"
+      (onClick)="onAddToCartClick($event, book, i)" />
+  </li>
+</ul>
+<p-toast />
+

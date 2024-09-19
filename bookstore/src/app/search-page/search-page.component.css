@@ -1,0 +1,51 @@
+.book-list {
+  display: flex; /* Makes the container a flexbox */
+  flex-wrap: wrap; /* Allows items to wrap onto the next line if needed */
+  gap: 15px; /* Adds space between items */
+  padding: 0;
+  list-style-type: none; /* Removes bullet points from list items */
+}
+
+.book-item {
+  display: flex; /* Set as flex to align internal content */
+  flex-direction: column; /* Stack internal content vertically */
+  justify-content: space-between; /* Space between internal elements */
+  align-items: flex-start; /* Align items to the start (left) */
+  flex: 0 1 200px; /* Allow items to shrink or grow, and set base width */
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: transform 0.2s ease-in-out; /* Smooth scaling effect */
+}
+
+.book-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.book-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+  margin-top: auto; /* Pushes price to the bottom of the book-item */
+}
+
+
+h1 {
+  font-size: 36px; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+  text-align: center; /* Center text horizontally */
+  margin: 20px auto; /* Center the h1 element and add vertical spacing */
+  color: #333; /* Adjust text color if needed */
+}
+

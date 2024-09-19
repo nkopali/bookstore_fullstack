@@ -1,0 +1,15 @@
+<div class="book-detail">
+  <h1>Book Details</h1>
+  <!-- <img [src]="book.photo" alt="{{ book.title }}" /> -->
+  <h2>{{ book?.title }}</h2>
+  <p>{{ book?.description }}</p>
+  <p class="price">{{ book?.price}} € </p>
+  <p-button
+  label="Add to Cart"
+  icon="pi pi-cart-plus"
+  class="text-xs"
+  [loading]="loading"
+  (onClick)="onAddToCartClick()" />
+</div>
+<p-toast />
+
