@@ -20,9 +20,9 @@ export class SearchPageComponent {
     this.route.paramMap.subscribe(param => {
       this.search_term = param.get('title')
 
-      this.search_term ? this.booksService.getByTitle(this.search_term).subscribe((data) => {
+      this.search_term && this.booksService.getByTitle(this.search_term).subscribe((data) => {
         this.books = data;
-      }) : null;
+      });
     });
 
   }

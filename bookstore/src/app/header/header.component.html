@@ -20,7 +20,6 @@
     <input type="text" [(ngModel)]="searchTerm" (keydown.enter)="onEnter()" placeholder="Search books by title" />
   </div>
 
-    <p-button (onClick)="showDialog(false)" class="text-xs" label="Login" />
     <div class="card flex justify-center">
       <p-dialog header="{{ isSignUp ? 'Sign Up' : 'Login' }}" [modal]="true" [(visible)]="visible" [style]="{ width: '35rem' }">
           <div class="grid grid-cols-1 gap-4">
@@ -32,7 +31,7 @@
               <div *ngIf="isSignUp" class="flex flex-col">
                 <label for="name" class="font-semibold">Name</label>
                 <input pInputText [(ngModel)]="name" id="name" class="w-full" autocomplete="off" />
-            </div>
+              </div>
 
               <div class="flex flex-col">
                   <label for="password" class="font-semibold">Password</label>
@@ -43,14 +42,13 @@
                   <label for="confirm-password" class="font-semibold">Confirm Password</label>
                   <input pInputText [(ngModel)]="confPassword" id="confirm-password" type="password" class="w-full" autocomplete="off" />
               </div>
-          </div>
 
-          <div class="flex text-xs px-2 gap-2 mt-4">
-            <p-button label="Cancel" severity="secondary" (onClick)="visible = false"></p-button>
-            <p-button label="{{ isSignUp ? 'Sign Up' : 'Login' }}" (onClick)="visible = false; handleSubmit()"></p-button>
+              <div class="flex flex-row justify-center px-2 gap-2 mt-4">
+                <p-button [outlined]="true" label="Cancel" severity="secondary" (onClick)="visible = false"></p-button>
+                <p-button [outlined]="true" label="{{ isSignUp ? 'Sign Up' : 'Login' }}" (onClick)="handleSubmit()"></p-button>
+              </div>
           </div>
-
-          <div class="flex justify-content-center mt-2">
+          <div class="flex justify-center mt-2">
               <a (click)="toggleSignUp()">
                   {{ isSignUp ? 'Already have an account? Login' : 'Don\'t have an account? Sign Up' }}
               </a>
@@ -58,5 +56,17 @@
       </p-dialog>
   </div>
 
+  <p-button *ngIf="!isLoggedIn" [outlined]="true" (onClick)="showDialog(true)" class="text-xs" label="Login" />
+  <div class="flex flex-row gap-8 items-center">
+    <i *ngIf="isLoggedIn" class="pi pi-shopping-cart" style="font-size: 1.5rem;" pBadge [value]="cart_items"></i>
+    <p-avatar
+      *ngIf="isLoggedIn"
+      icon="pi pi-user"
+      styleClass="mr-2"
+      size="normal"
+      (click)="menu.toggle($event)"
+      shape="circle" />
+      <p-menu #menu [model]="dropdownItems" [popup]="true" />
+  </div>
 </header>
 <p-toast />

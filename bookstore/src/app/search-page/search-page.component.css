@@ -3,6 +3,7 @@
   flex-wrap: wrap; /* Allows items to wrap onto the next line if needed */
   gap: 15px; /* Adds space between items */
   padding: 0;
+  justify-content: center;
   list-style-type: none; /* Removes bullet points from list items */
 }
 

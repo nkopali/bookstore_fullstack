@@ -1,5 +1,6 @@
-<h1>{{ main_category }} Books</h1>
-<ul class="book-list">
+<div class="flex flex-col">
+  <h1>{{ main_category }} Books</h1>
+<ul class="book-list m-10">
   <li *ngFor="let book of books; let i = index" class="book-item" >
     <!-- <img [src]="book.photo" alt="{{ book.title }}" /> -->
      <div (click)="onBookClick(book)">
@@ -9,3 +10,4 @@
      </div>
   </li>
 </ul>
+</div>

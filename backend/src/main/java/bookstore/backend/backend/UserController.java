@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import bookstore.backend.backend.model.LoginDTO;
 import bookstore.backend.backend.model.User;
 import bookstore.backend.backend.service.UserService;
 
@@ -39,7 +40,7 @@ public class UserController
     }
 
     @PostMapping("/login")
-    public ResponseEntity<Map<String, String>> loginUser(@RequestBody User loginRequest) {
+    public ResponseEntity<Map<String, String>> loginUser(@RequestBody LoginDTO loginRequest) {
         User user = userService.findUserByEmail(loginRequest.getEmail());
         Map<String, String> response = new HashMap<>();
 

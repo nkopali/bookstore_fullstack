@@ -19,9 +19,9 @@ export class CategoryPageComponent {
   ngOnInit(): void {
     this.route.paramMap.subscribe(param => {
       this.main_category = param.get('category')
-      this.main_category ? this.booksService.getByCategory(this.main_category).subscribe((data) => {
+      this.main_category && this.booksService.getByCategory(this.main_category).subscribe((data) => {
         this.books = data;
-      }) : null;
+      });
     })
 
   }

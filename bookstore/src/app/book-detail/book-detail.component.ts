@@ -27,9 +27,9 @@ export class BookDetailComponent {
   ngOnInit(): void {
     this.book_id = this.route.snapshot.paramMap.get('id');
 
-    this.book_id ? this.booksService.getById(this.book_id).subscribe((data) =>{
+    this.book_id && this.booksService.getById(this.book_id).subscribe((data) =>{
       this.book = data;
-    }) : null;
+    });
   }
 
   onAddToCartClick() {

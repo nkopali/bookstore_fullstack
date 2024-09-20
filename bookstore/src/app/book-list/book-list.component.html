@@ -7,9 +7,10 @@
       <p class="price">{{ book.price}} € </p>
      </div>
     <p-button
+      [outlined]="true"
       label="Add to Cart"
       icon="pi pi-cart-plus"
-      class="text-xs"
+      class="text-xs h-9"
       [loading]="loadingStates[i]"
       (onClick)="onAddToCartClick($event, book, i)" />
   </li>
