@@ -19,6 +19,7 @@ export class UserService {
 
   public signUp(user: User): Observable<any>{
     return this.http.post<User>(`${this.apiServerUrl}/signup`, user);
+
   }
 
   public logIn(email: string, password: string): Observable<any> {
